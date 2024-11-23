@@ -1,220 +1,240 @@
-Drew Hays - Get your product identity from me.
+vCard - Personal Portfolio
 
-This is a personal portfolio html template made by codewithsadee
+# sidebar
 
+alt = Richard hanrick
+Richard hanrick
+Web developer
 
+Show Contacts
 
-#---------- HEADER ----------#
+Email
+richard@example.com
 
-alt = logo
+Phone
++1 (213) 352-2795
 
-alt = logo
+Birthday
+June 23, 1982
 
-aria-label = close menu
-<ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+Location
+Sacramento, California, USA
 
-Home
-Services
+# navbar
+
 About
-Project
-Review
+Resume
+Portfolio
+Blog
 Contact
 
-Get A Quote
+# about
 
-<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
+About me
 
-aria-label = open menu
+I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media. I enjoy turning complex problems into simple, beautiful and intuitive designs.
 
-
-
-#---------- HERO ----------#
-
-alt = Drew Hays
-
-Drew Hays
-
-Get Your Product Identity From Me.
-
-Download CV
-<ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
-
-From device to cloud to edge Innovate from anywhere with secure
+My job is to build your website so that it is functional and user-friendly but at the same time attractive. Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring across your message and identity in the most creative way. I created web design for many famous brand companies.
 
 
+## service
 
-#---------- SERVICE ----------#
+What i'm doing
 
-alt = service icon
+alt = design icon
+Web design
+The most modern and high-quality design made at a professional level.
 
-Web
-Development
+alt = Web development icon
+Web development
+High-quality development of sites at the professional level.
 
-Digital
-Marketing
+alt = mobile app icon
+Mobile apps
+Professional development of applications for iOS and Android.
 
-Graphics
+alt = camera icon
+Photography
+I make high-quality photos of any category at a professional level.
+
+
+## testimonials
+
+Testimonials
+
+alt = Daniel lewis
+Daniel lewis
+Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+
+alt = Jessica miller
+Jessica miller
+Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+
+alt = Emily evans
+Emily evans
+Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+
+alt = Henry william
+Henry william
+Richard was hired to create a corporate identity. We were very pleased with the work done. She has a lot of experience and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt consectetur adipiscing elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+
+
+## clients
+
+Clients
+
+alt = client logo
+
+
+
+# resume
+
+Resume
+
+Education
+
+University school of the arts
+2007 — 2008
+Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+
+New york academy of art
+2006 — 2007
+Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est omnis..
+
+High school of art and design
+2002 — 2004
+Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur magni dolores eos.
+
+Experience
+
+Creative director
+2015 — Present
+Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas molestias exceptur.
+
+Art director
+2013 — 2015
+Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+
+Web designer
+2010 — 2013
+Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et quas molestias exceptur.
+
+My skills
+
+Web design
+80%
+Graphic design
+70%
+Branding
+90%
+WordPress
+50%
+
+
+
+# portfolio
+
+Portfolio
+
+All
+Web design
+Applications
+Web development
+
+Select category
+All
+Web design
+Applications
+Web development
+
+alt = finance
+Finance
+Web development
+
+alt = orizon
+Orizon
+Web development
+
+alt = fundo
+Fundo
+Web design
+
+alt = brawlhalla
+Brawlhalla
+Applications
+
+alt = dsm.
+DSM.
+Web design
+
+alt = metaspark
+MetaSpark
+Web design
+
+alt = summary
+Summary
+Web development
+
+alt = task manager
+Task Manager
+Applications
+
+alt = arrival
+Arrival
+Web development
+
+
+
+# blog
+
+Blog
+
+alt = Design conferences in 2022
 Design
+Fab 23, 2022
+Design conferences in 2022
+Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
 
-Mobile
-Application
+alt = Best fonts every designer
+Design
+Fab 23, 2022
+Best fonts every designer
+Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
 
+alt = Design digest #80
+Design
+Fab 23, 2022
+Design digest #80
+Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
 
+alt = UI interactions of the week
+Design
+Fab 23, 2022
+UI interactions of the week
+Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
 
-#---------- ABOUT ----------#
+alt = The forgotten art of spacing
+Design
+Fab 23, 2022
+The Forgotten Art Of Spacing
+Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
 
-About Me
-Skillset
-Interview
-Awwards
-Exhibition
+alt = Design digest #79
+Design
+Fab 23, 2022
+Design Digest #79
+Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
 
-ABOUT TAB
-----------
-alt = about banner
 
-A very small stage in a vast cosmic.
 
-A very small stage in a vast cosmic arena great turbuslent clouds encyclo-paedia galactica star stuff harvesting star light the carbon in our apple pies realm of the galaxies
+# contact
 
-Name
-Drew Hays
+Contact
 
-Phone Number
-123. 456. 789. 01
+Contact Form
 
-Email Address
-info@drew.com
+Full name
+Email address
+Your Message
 
-Social Network
-
-title = Facebook
-Fb.
-
-title = Behance
-Be.
-
-title = Linkedin
-Ln.
-
-title = Dribbble
-Dr.
-
-SKILLSET TAB
----------
-We help to create visual strategies.
-
-A very small stage in a vast cosmic arena great turbuslent clouds encyclo-paedia galactica star stuff harvesting star light
-
-Website Development
-95%
-
-Design UI & UX
-85%
-
-alt = skill banner
-
-INTERVIEW TAB
--------------
-alt = interview 1
-
-play
-
-AWARD TAB
-----------
-We’re a team of creatives who are excited about unique ideas and help IT-tech companies to make identity by crafting UI/UX.
-
-alt = certificate
-
-EXHIBITION TAB
---------------
-
-alt = image
-<ion-icon name="image-outline" aria-hidden="true"></ion-icon>
-
-alt = video
-<ion-icon name="logo-youtube"></ion-icon>
-
-alt = music
-<ion-icon name="logo-soundcloud"></ion-icon>
-
-
-
-#---------- CTA ----------#
-
-Let's Work Together On Your Next Project!
-
-Hire Me Now
-
-<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-
-
-
-#---------- PROJECTS ----------#
-
-alt = Project poster: Creative & experienced digital design studio
-
-Project Details
-
-<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-
-Web, Product
-
-Creative & experienced digital design studio
-
-
-Front End Development & Maintenance
-
-Flutter Framework & Warframe Design
-
-Full Web Development Project With JavaScript
-
-Cloud Migration & AWS Services
-
-
-
-#---------- TESTIMONIALS ----------#
-
-The average national hourly rate for house cleaning services is $25 to $90 per individual, or $50 to $90 per hour. The size and condition of your home will strongly impact the price of these.
-
-Alexis browni JR.
-
-Founder of alxis co.
-
-
-
-#---------- CONTACT ----------#
-
-Get In Touch
-
-placeholder = Full name
-placeholder = Email address
-placeholder = Phone
-placeholder = Enter massges
-
-Get A Quote
-
-<ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-
-map src = https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d898.4329239267093!2d-73.91493787358391!3d40.76299026683699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sbd!4v1671529019371!5m2!1sen!2sbd
-
-alt = contact icon
-
-869. 368. 456. 56
-789 (569) 126 35
-
-30- 24 Newtown Rd, Queens,
-NY 11103, USA
-
-info@drew.com
-jobs@drew.com
-
-
-
-#---------- FOOTER ----------#
-
-Copyright & Design By @codewithsadee - 2022
-
-Back To Top
-
-<ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
+Send Message

@@ -5,930 +5,1192 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>vCard - Personal Portfolio</title>
 
-  <!-- 
-    - primary meta tags
-  -->
-  <title>STEVEAPPS - PERSONAL PORTFOLIO.</title>
-  <meta name="title" content="steve kuria - Get your product identity from me.">
-  <meta name="description" content="This is a personal portfolio html template made by steveapps">
-
-  <!-- 
+  <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./favicon.png" type="image/svg+xml">
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-  <!-- 
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="./assets/font/font.css">
-
-  <!-- 
+  <!--
     - custom css link
   -->
   <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- 
-    - preload images
+  <!--
+    - google font link
   -->
-  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-shape-1.png">
-  <link rel="preload" as="image" href="./assets/images/hero-shape-2.png">
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 
-<body id="top">
+<body>
 
-  <!-- 
-    - #PRELOADER
+  <!--
+    - #MAIN
   -->
 
-  <div class="preloader" data-preloader>
-    <span class="line"></span>
-  </div>
+  <main>
 
+    <!--
+      - #SIDEBAR
+    -->
 
+    <aside class="sidebar" data-sidebar>
 
+      <div class="sidebar-info">
 
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+        </figure>
 
-  <!-- 
-    - #HEADER
-  -->
+        <div class="info-content">
+          <h1 class="name" title="Richard hanrick">Richard hanrick</h1>
 
-  <header class="header" data-header>
-    <div class="container">
-
-      <a href="#" class="logo">
-        <img src="./assets/images/logo.png" width="84" height="26" alt="logo">
-      </a>
-
-      <nav class="navbar" data-navbar>
-
-        <div class="navbar-top">
-          <a href="#" class="logo">
-            <img src="./assets/images/logo.png" width="84" height="26" alt="logo">
-          </a>
-
-          <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
-            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-          </button>
+          <p class="title">Web developer</p>
         </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:richard@example.com" class="contact-link">richard@example.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">June 23, 1982</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Sacramento, California, USA</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
 
         <ul class="navbar-list">
 
-          <li>
-            <a href="#home" class="navbar-link" data-nav-link>Home</a>
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
           </li>
 
-          <li>
-            <a href="#service" class="navbar-link" data-nav-link>Services</a>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
           </li>
 
-          <li>
-            <a href="#about" class="navbar-link" data-nav-link>About</a>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
           </li>
 
-          <li>
-            <a href="#project" class="navbar-link" data-nav-link>Project</a>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Blog</button>
           </li>
 
-          <li>
-            <a href="#review" class="navbar-link" data-nav-link>Review</a>
-          </li>
-
-          <li>
-            <a href="#contact" class="navbar-link" data-nav-link>Contact</a>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
           </li>
 
         </ul>
 
       </nav>
 
-      <a href="#" class="btn btn:hover">
-        <span class="span">Get A Quote</span>
-
-        <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-      </a>
-
-      <button class="nav-open-btn btn:hover" aria-label="open menu" data-nav-toggler>
-        <span class="line line-1"></span>
-        <span class="line line-2"></span>
-      </button>
-
-      <div class="overlay" data-overlay data-nav-toggler></div>
-
-    </div>
-  </header>
 
 
 
 
-
-  <main>
-    <article>
-
-      <!-- 
-        - #HERO
+      <!--
+        - #ABOUT
       -->
 
-      <div class="hero text-center" id="home">
-        <div class="container">
+      <article class="about  active" data-page="about">
 
-          <div class="banner-outline has-after">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
 
-            <div class="hero-banner img-holder has-after" style="--width: 500; --height: 680;" data-tilt>
-              <img src="./assets/images/hero-banner.jpg" width="500" height="680" alt="Drew Hays" class="img-cover">
-            </div>
+        <section class="about-text">
+          <p>
+            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
+            I enjoy
+            turning complex problems into simple, beautiful and intuitive designs.
+          </p>
 
-            <span class="span title">STEVE KURIA</span>
-
-          </div>
-
-          <div class="hero-content">
-
-            <h1 class="h1 title">PERSONAL PORTFOLIO WEBSITE (STEVEAPPS)</Main>.</h1>
-
-            <div class="wrapper">
-              <a href="#" class="btn btn:hover">
-                <span class="span">Download CV</span>
-
-                <ion-icon name="cloud-download-outline" aria-hidden="true"></ion-icon>
-              </a>
-
-              <p class="hero-text">
-                
-              </p>
-            </div>
-
-          </div>
-
-          <img src="./assets/images/hero-shape-1.png" width="1358" height="75" alt="shape" class="shape shape-1">
-
-          <img src="./assets/images/hero-shape-2.png" width="1358" height="75" alt="shape" class="shape shape-2">
-
-        </div>
-      </div>
+          <p>
+            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
+            Moreover, I
+            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
+            across your
+            message and identity in the most creative way. I created web design for many famous brand companies.
+          </p>
+        </section>
 
 
+        <!--
+          - service
+        -->
 
+        <section class="service">
 
-
-      <!-- 
-        - #SERVICE
-      -->
-
-      <section class="service text-center" aria-label="my services" id="service">
-        <div class="container">
+          <h3 class="h3 service-title">What i'm doing</h3>
 
           <ul class="service-list">
 
             <li class="service-item">
-              <div class="service-card">
 
-                <div class="card-icon">
-                  <img src="./assets/images/service-icon-1.svg" width="80" height="80" loading="lazy"
-                    alt="service icon">
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-design.svg
+                " alt="design icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Mobile apps</h4>
+
+                <p class="service-item-text">
+                  Professional development of applications for iOS and Android.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Photography</h4>
+
+                <p class="service-item-text">
+                  I make high-quality photos of any category at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - testimonials
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Testimonials</h3>
+
+          <ul class="testimonials-list has-scrollbar">
+
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
                 </div>
-
-                <h3 class="card-title">
-                  <a href="#">
-                    Web <br>
-                    Development
-                  </a>
-                </h3>
 
               </div>
             </li>
 
-            <li class="service-item">
-              <div class="service-card">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
 
-                <div class="card-icon">
-                  <img src="./assets/images/service-icon-2.svg" width="80" height="80" loading="lazy"
-                    alt="service icon">
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
                 </div>
-
-                <h3 class="card-title">
-                  <a href="#">
-                    Digital <br>
-                    Marketing
-                  </a>
-                </h3>
 
               </div>
             </li>
 
-            <li class="service-item">
-              <div class="service-card">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
 
-                <div class="card-icon">
-                  <img src="./assets/images/service-icon-3.svg" width="80" height="80" loading="lazy"
-                    alt="service icon">
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
                 </div>
-
-                <h3 class="card-title">
-                  <a href="#">
-                    Graphics <br>
-                    Design
-                  </a>
-                </h3>
 
               </div>
             </li>
 
-            <li class="service-item">
-              <div class="service-card">
+            <li class="testimonials-item">
+              <div class="content-card" data-testimonials-item>
 
-                <div class="card-icon">
-                  <img src="./assets/images/service-icon-4.svg" width="80" height="80" loading="lazy"
-                    alt="service icon">
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                    lot of experience
+                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                    consectetur adipiscing
+                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                  </p>
                 </div>
-
-                <h3 class="card-title">
-                  <a href="#">
-                    Mobile <br>
-                    Application
-                  </a>
-                </h3>
 
               </div>
             </li>
 
           </ul>
 
+        </section>
+
+
+        <!--
+          - testimonials modal
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
         </div>
-      </section>
+
+
+        <!--
+          - clients
+        -->
+
+        <section class="clients">
+
+          <h3 class="h3 clients-title">Clients</h3>
+
+          <ul class="clients-list has-scrollbar">
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-4-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-5-color.png" alt="client logo">
+              </a>
+            </li>
+
+            <li class="clients-item">
+              <a href="#">
+                <img src="./assets/images/logo-6-color.png" alt="client logo">
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
 
 
 
 
 
-      <!-- 
-        - #ABOUT
+      <!--
+        - #RESUME
       -->
 
-      <section class="section about" aria-label="about-me" id="about">
-        <div class="container">
+      <article class="resume" data-page="resume">
 
-          <div class="tab-container">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
 
-            <ul class="tab-btn-list">
+        <section class="timeline">
 
-              <li class="tab-btn-item">
-                <button class="tab-btn title h6 active" data-tab-btn="about">About Me</button>
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">University school of the arts</h4>
+
+              <span>2007 — 2008</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">New york academy of art</h4>
+
+              <span>2006 — 2007</span>
+
+              <p class="timeline-text">
+                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
+                omnis..
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">High school of art and design</h4>
+
+              <span>2002 — 2004</span>
+
+              <p class="timeline-text">
+                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
+                magni dolores
+                eos.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Creative director</h4>
+
+              <span>2015 — Present</span>
+
+              <p class="timeline-text">
+                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
+                molestias
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Art director</h4>
+
+              <span>2013 — 2015</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web designer</h4>
+
+              <span>2010 — 2013</span>
+
+              <p class="timeline-text">
+                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
+                quas molestias
+                exceptur.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Web design</h5>
+                <data value="80">80%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Graphic design</h5>
+                <data value="70">70%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">Branding</h5>
+                <data value="90">90%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 90%;"></div>
+              </div>
+
+            </li>
+
+            <li class="skills-item">
+
+              <div class="title-wrapper">
+                <h5 class="h5">WordPress</h5>
+                <data value="50">50%</data>
+              </div>
+
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 50%;"></div>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web design</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Applications</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
               </li>
 
-              <li class="tab-btn-item">
-                <button class="tab-btn title h6" data-tab-btn="skillset">Skillset</button>
+              <li class="select-item">
+                <button data-select-item>Web design</button>
               </li>
 
-              <li class="tab-btn-item">
-                <button class="tab-btn title h6" data-tab-btn="interview">Interview</button>
+              <li class="select-item">
+                <button data-select-item>Applications</button>
               </li>
 
-              <li class="tab-btn-item">
-                <button class="tab-btn title h6" data-tab-btn="awward">Awwards</button>
-              </li>
-
-              <li class="tab-btn-item">
-                <button class="tab-btn title h6" data-tab-btn="exhibition">Exhibition</button>
+              <li class="select-item">
+                <button data-select-item>Web development</button>
               </li>
 
             </ul>
 
-            <div class="tab-content active" data-tab-content="about">
-              <div class="grid-list">
-
-                <figure class="about-banner img-holder" style="--width: ; --height: ;" data-tilt>
-                  <img src="./assets/images/about-banner.jpg" width="570" height="420" loading="lazy" alt="about banner"
-                    class="img-cover">
-                </figure>
-
-                <div class="about-content">
-
-                  <h2 class="h4 title section-title">
-                    INFORMATION TECHNOLOGY EXPERT
-                  </h2>
-
-                  <p class="section-text">
-                    Advancing trends in Business information technology, computer networks, artificial intelligence, web applications, cloud computing. 
-                  </p>
-
-                  <ul class="about-list">
-
-                    <li class="about-item">
-                      <p class="list-title">Name</p>
-
-                      <span class="span title h5">Steve Kuria</span>
-                    </li>
-
-                    <li class="about-item">
-                      <p class="list-title">Phone Number</p>
-
-                      <span class="span title h5">0794101091</span>
-                    </li>
-
-                    <li class="about-item">
-                      <p class="list-title">E-mail</p>
-
-                      <span class="span title h5">stevekuria20146@gmail</span>
-                    </li>
-
-                    <li class="about-item">
-                      <p class="list-title">Social Network</p>
-
-                      <div class="social-list">
-
-                        <a href="#" class="social-link h6" title="Facebook">Mr.</a>
-                        <a href="#" class="social-link h6" title="Behance">Exp.</a>
-                        <a href="#" class="social-link h6" title="Linkedin">Dev.</a>
-                        <a href="#" class="social-link h6" title="Dribbble">Act</a>
-
-                      </div>
-                    </li>
-
-                  </ul>
-
-                </div>
-
-              </div>
-            </div>
-
-            <div class="tab-content" data-tab-content="skillset">
-              <div class="grid-list">
-
-                <div class="skill-content">
-
-                  <h3 class="h4 title section-title">
-                    view my skills profile
-                  </h3>
-
-                  <p class="section-text">
-                    I hold a bachelor of science in Business Information Technology from the University of Embu (public university) EMBU-KENYA
-                  </p>
-
-                  <ul class="skill-list">
-
-                    <li>
-                      <div class="skill-wrapper">
-                        <span class="span">Website Development</span>
-
-                        <span class="value">90%</span>
-                      </div>
-
-                      <div class="progress-bar">
-                        <div class="progress-fill" style="width: 95%"></div>
-                      </div>
-                    </li>
-
-                    <li>
-                      <div class="skill-wrapper">
-                        <span class="span">Design UI & UX</span>
-
-                        <span class="value">85%</span>
-                      </div>
-
-                      <div class="progress-bar">
-                        <div class="progress-fill" style="width: 85%"></div>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="skill-wrapper">
-                        <span class="span">Database systems</span>
-
-                        <span class="value">50%</span>
-                      </div>
-
-                      <div class="progress-bar">
-                        <div class="progress-fill" style="width: 85%"></div>
-                      </div>
-                    </li>
-                  </ul>
-
-                </div>
-
-                <figure class="skill-banner img-holder" style="--width: 570; --height: 420;" data-tilt>
-                  <img src="./assets/images/skill-banner.jpg" width="570" height="420" loading="lazy" alt="skill banner"
-                    class="img-cover">
-                </figure>
-
-              </div>
-            </div>
-
-            <div class="tab-content" data-tab-content="interview">
-              <div class="grid-list">
-
-                <div class="interview-card img-holder" style="--width: 376; --height: 420;" data-tilt>
-                  <img src="./assets/images/interview-1.jpg" width="376" height="420" loading="lazy" alt="interview 1"
-                    class="img-cover">
-
-                  <button class="btn btn:hover">Play</button>
-                </div>
-
-                <div class="interview-card img-holder" style="--width: 376; --height: 420;" data-tilt>
-                  <img src="./assets/images/interview-2.jpg" width="376" height="420" loading="lazy" alt="interview 2"
-                    class="img-cover">
-
-                  <button class="btn btn:hover">Play</button>
-                </div>
-
-                <div class="interview-card img-holder" style="--width: 376; --height: 420;" data-tilt>
-                  <img src="./assets/images/interview-3.jpg" width="376" height="420" loading="lazy" alt="interview 3"
-                    class="img-cover">
-
-                  <button class="btn btn:hover">Play</button>
-                </div>
-
-              </div>
-            </div>
-
-            <div class="tab-content" data-tab-content="awward">
-
-              <h3 class="h4 title section-title">
-                Looking for my next opportunity to make a change the digital way.
-                Creativity and innovations in information technology.
-              </h3>
-
-              <ul class="grid-list">
-
-                <li>
-                  <div class="award-card">
-                    <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
-                      <img src="./assets/images/awward-1.jpg" width="534" height="383" loading="lazy" alt="certificate"
-                        class="img-cover">
-                    </figure>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="award-card">
-                    <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
-                      <img src="./assets/images/awward-2.jpg" width="534" height="383" loading="lazy" alt="certificate"
-                        class="img-cover">
-                    </figure>
-                  </div>
-                </li>
-
-                <li>
-                  <div class="award-card">
-                    <figure class="card-banner img-holder" style="--width: 534; --height: 383;" data-tilt>
-                      <img src="./assets/images/awward-3.jpg" width="534" height="383" loading="lazy" alt="certificate"
-                        class="img-cover">
-                    </figure>
-                  </div>
-                </li>
-
-              </ul>
-
-            </div>
-
-            <div class="tab-content" data-tab-content="exhibition">
-              <ul class="grid-list">
-
-                <li>
-                  <div class="exhibition-card">
-
-                    <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
-                      <img src="./assets/images/exhibition-1.jpg" width="376" height="200" loading="lazy" alt="image"
-                        class="img-cover">
-                    </figure>
-
-                    <div class="card-icon">
-                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
-                    </div>
-
-                  </div>
-                </li>
-
-                <li>
-                  <div class="exhibition-card">
-
-                    <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
-                      <img src="./assets/images/exhibition-2.jpg" width="376" height="200" loading="lazy" alt="video"
-                        class="img-cover">
-                    </figure>
-
-                    <div class="card-icon">
-                      <ion-icon name="logo-youtube" aria-hidden="true"></ion-icon>
-                    </div>
-
-                  </div>
-                </li>
-
-                <li>
-                  <div class="exhibition-card">
-
-                    <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
-                      <img src="./assets/images/exhibition-3.jpg" width="376" height="200" loading="lazy" alt="music"
-                        class="img-cover">
-                    </figure>
-
-                    <div class="card-icon">
-                      <ion-icon name="logo-soundcloud" aria-hidden="true"></ion-icon>
-                    </div>
-
-                  </div>
-                </li>
-
-                <li>
-                  <div class="exhibition-card">
-
-                    <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
-                      <img src="./assets/images/exhibition-4.jpg" width="376" height="200" loading="lazy" alt="image"
-                        class="img-cover">
-                    </figure>
-
-                    <div class="card-icon">
-                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
-                    </div>
-
-                  </div>
-                </li>
-
-                <li>
-                  <div class="exhibition-card">
-
-                    <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
-                      <img src="./assets/images/exhibition-5.jpg" width="376" height="200" loading="lazy" alt="image"
-                        class="img-cover">
-                    </figure>
-
-                    <div class="card-icon">
-                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
-                    </div>
-
-                  </div>
-                </li>
-
-                <li>
-                  <div class="exhibition-card">
-
-                    <figure class="card-banner img-holder" style="--width: 376; --height: 200;" data-tilt>
-                      <img src="./assets/images/exhibition-6.jpg" width="376" height="200" loading="lazy" alt="image"
-                        class="img-cover">
-                    </figure>
-
-                    <div class="card-icon">
-                      <ion-icon name="image-outline" aria-hidden="true"></ion-icon>
-                    </div>
-
-                  </div>
-                </li>
-
-              </ul>
-            </div>
-
           </div>
 
-        </div>
-      </section>
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Finance</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Orizon</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Fundo</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Brawlhalla</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DSM.</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web design">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">MetaSpark</h3>
+
+                <p class="project-category">Web design</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Summary</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="applications">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Task Manager</h3>
+
+                <p class="project-category">Applications</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Arrival</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
 
 
 
 
 
-      <!-- 
-        - #CTA
+      <!--
+        - #BLOG
       -->
 
-      <section class="section cta" aria-label="work with me">
-        <div class="container">
+      <article class="blog" data-page="blog">
 
-          <h2 class="title h2 section-title text-center">
-            Let's Work Together On Your Next Project!
-          </h2>
+        <header>
+          <h2 class="h2 article-title">Blog</h2>
+        </header>
 
-          <a href="#" class="btn btn:hover">
-            <span class="span">Hire Me Now</span>
+        <section class="blog-posts">
 
-            <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-          </a>
+          <ul class="blog-posts-list">
 
-        </div>
-      </section>
+            <li class="blog-post-item">
+              <a href="#">
 
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                </figure>
 
+                <div class="blog-content">
 
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
 
+                    <span class="dot"></span>
 
-      <!-- 
-        - #PROJECTS
-      -->
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
 
-      <section class="section project" aria-label="my latest projects" id="project">
+                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
 
-        <ul class="slider-list">
+                  <p class="blog-text">
+                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
+                  </p>
 
-          <li class="slider-item">
-            <div class="project-card text-center">
+                </div>
 
-              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
-                <img src="./assets/images/project-1.jpg" width="1000" height="763" loading="lazy"
-                  alt="Project poster: Creative & experienced digital design studio" class="img-cover">
+              </a>
+            </li>
 
-                <a href="#" class="btn btn:hover">
-                  <span class="span">Project Details</span>
+            <li class="blog-post-item">
+              <a href="#">
 
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </a>
-              </div>
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                </figure>
 
-              <div class="card-content">
-                <p class="card-subtitle">Web, Product</p>
+                <div class="blog-content">
 
-                <h3 class="title h3">
-                  <a href="#" class="card-title">Artificial intelligence technologies , conversational and customer service chatbots.</a>
-                </h3>
-              </div>
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
 
-            </div>
-          </li>
+                    <span class="dot"></span>
 
-          <li class="slider-item">
-            <div class="project-card text-center">
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
 
-              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
-                <img src="./assets/images/project-2.jpg" width="1000" height="763" loading="lazy"
-                  alt="Project poster: Front End Development & Maintenance" class="img-cover">
+                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
 
-                <a href="#" class="btn btn:hover">
-                  <span class="span">Project Details</span>
+                  <p class="blog-text">
+                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
+                  </p>
 
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </a>
-              </div>
+                </div>
 
-              <div class="card-content">
-                <p class="card-subtitle">Web, Product</p>
+              </a>
+            </li>
 
-                <h3 class="title h3">
-                  <a href="#" class="card-title">Front End Development & Maintenance</a>
-                </h3>
-              </div>
+            <li class="blog-post-item">
+              <a href="#">
 
-            </div>
-          </li>
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                </figure>
 
-          <li class="slider-item">
-            <div class="project-card text-center">
+                <div class="blog-content">
 
-              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
-                <img src="./assets/images/project-3.jpg" width="1000" height="763" loading="lazy"
-                  alt="Project poster: Flutter Framework & Warframe Design" class="img-cover">
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
 
-                <a href="#" class="btn btn:hover">
-                  <span class="span">Project Details</span>
+                    <span class="dot"></span>
 
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </a>
-              </div>
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
 
-              <div class="card-content">
-                <p class="card-subtitle">Web, Product</p>
+                  <h3 class="h3 blog-item-title">Design digest #80</h3>
 
-                <h3 class="title h3">
-                  <a href="#" class="card-title">Mobile applictions programming android studio (java)</a>
-                </h3>
-              </div>
+                  <p class="blog-text">
+                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
+                  </p>
 
-            </div>
-          </li>
+                </div>
 
-          <li class="slider-item">
-            <div class="project-card text-center">
+              </a>
+            </li>
 
-              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
-                <img src="./assets/images/project-4.jpg" width="1000" height="763" loading="lazy"
-                  alt="Project poster: Full Web Development Project With JavaScript" class="img-cover">
+            <li class="blog-post-item">
+              <a href="#">
 
-                <a href="#" class="btn btn:hover">
-                  <span class="span">Project Details</span>
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                </figure>
 
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </a>
-              </div>
+                <div class="blog-content">
 
-              <div class="card-content">
-                <p class="card-subtitle">Web, Product</p>
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
 
-                <h3 class="title h3">
-                  <a href="#" class="card-title">Full Web Development Project With JavaScript</a>
-                </h3>
-              </div>
+                    <span class="dot"></span>
 
-            </div>
-          </li>
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
 
-          <li class="slider-item">
-            <div class="project-card text-center">
+                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
 
-              <div class="card-banner img-holder has-before" style="--width: 1000; --height: 763;">
-                <img src="./assets/images/project-5.jpg" width="1000" height="763" loading="lazy"
-                  alt="Project poster: Cloud Migration & AWS Services" class="img-cover">
+                  <p class="blog-text">
+                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
+                  </p>
 
-                <a href="#" class="btn btn:hover">
-                  <span class="span">Project Details</span>
+                </div>
 
-                  <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-                </a>
-              </div>
+              </a>
+            </li>
 
-              <div class="card-content">
-                <p class="card-subtitle">Web, Product</p>
+            <li class="blog-post-item">
+              <a href="#">
 
-                <h3 class="title h3">
-                  <a href="#" class="card-title">Cloud Migration & AWS Services</a>
-                </h3>
-              </div>
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
+                </figure>
 
-            </div>
-          </li>
+                <div class="blog-content">
 
-        </ul>
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
 
-      </section>
+                    <span class="dot"></span>
 
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
 
+                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
 
+                  <p class="blog-text">
+                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  </p>
 
+                </div>
 
-      <!-- 
-        - #TESTIMONIALS
-      -->
+              </a>
+            </li>
 
-      <section class="section testi" aria-label="what our client says" id="review">
-        <div class="container">
+            <li class="blog-post-item">
+              <a href="#">
 
-          <div class="testi-content">
+                <figure class="blog-banner-box">
+                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
+                </figure>
 
-            <blockquote class="title h4 section-text">
-              &ldquo; Other skills and services includes Big data analytics, multimedia systems, graphics design, 
-              customer support, information systems management, microsoft profficiency &rdquo;
-            </blockquote>
+                <div class="blog-content">
 
-            <div class="profile-card">
-              <figure class="card-banner img-holder" style="--width: 70; --height: 70;">
-                <img src="./assets/images/client.png" width="70" height="70" loading="lazy" alt="Alexis browni JR."
-                  class="img-cover">
-              </figure>
+                  <div class="blog-meta">
+                    <p class="blog-category">Design</p>
 
-              <div>
-                <p class="title h5 card-title">Stephen Kuria</p>
+                    <span class="dot"></span>
 
-                <p class="card-subtitle">Founder of ambianceNet</p>
-              </div>
-            </div>
+                    <time datetime="2022-02-23">Fab 23, 2022</time>
+                  </div>
 
-          </div>
+                  <h3 class="h3 blog-item-title">Design digest #79</h3>
 
-        </div>
-      </section>
+                  <p class="blog-text">
+                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
+                  </p>
 
+                </div>
 
+              </a>
+            </li>
 
+          </ul>
 
+        </section>
 
-      <!-- 
+      </article>
+
+
+
+
+
+      <!--
         - #CONTACT
       -->
 
-      <section class="section contact" aria-label="contact me" id="contact">
-        <div class="container">
+      <article class="contact" data-page="contact">
 
-          <h2 class="title h2 section-title">Get In Touch</h2>
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
 
-          <div class="contact-content">
-
-            <form action="./index.html" method="post" class="contact-form">
-
-              <input type="text" name="name" placeholder="Full name" autocomplete="off" required class="input-field">
-
-              <input type="email" name="email_address" placeholder="Email address" autocomplete="off" required
-                class="input-field">
-
-              <input type="tel" name="phone" placeholder="Phone" autocomplete="off" class="input-field">
-
-              <textarea name="message" placeholder="Enter massges" required class="input-field"></textarea>
-
-              <button type="submit" class="btn btn:hover">
-                <span class="span">chatlink</span>
-
-                <ion-icon name="arrow-forward" aria-hidden="true"></ion-icon>
-              </button>
-
-            </form>
-
+        <section class="mapbox" data-mapbox>
+          <figure>
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d255285.50896044992!2d36.82746385052416!3d-1.2713918272592526!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sembakasi%20central!5e0!3m2!1sen!2ske!4v1730126456723!5m2!1sen!2ske"
-              width="600" height="450" style="border: 0;" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
+              width="400" height="300" loading="lazy"></iframe>
+          </figure>
+        </section>
 
-            <ul class="contact-list">
+        <section class="contact-form">
 
-              <li class="contact-item">
+          <h3 class="h3 form-title">Contact Form</h3>
 
-                <div class="item-icon">
-                  <img src="./assets/images/contact-icon-1.png" width="50" height="50" loading="lazy"
-                    alt="contact icon">
-                </div>
+          <form action="#" class="form" data-form>
 
-                <div>
-                  <span class="title h6">0794101091</span>
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
 
-                  <span class="title h6">0101679890</span>
-                </div>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
 
-              </li>
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-              <li class="contact-item">
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
 
-                <div class="item-icon">
-                  <img src="./assets/images/contact-icon-2.png" width="50" height="50" loading="lazy"
-                    alt="contact icon">
-                </div>
+          </form>
 
-                <div>
-                  <address class="title h6">
-                    EMBAKASI CENTRAL
-                    NAIROBI, KENYA
-                  </address>
-                </div>
+        </section>
 
-              </li>
+      </article>
 
-              <li class="contact-item">
+    </div>
 
-                <div class="item-icon">
-                  <img src="./assets/images/contact-icon-3.png" width="50" height="50" loading="lazy"
-                    alt="contact icon">
-                </div>
-
-                <div>
-                  <span class="title h6">stevekuria20146@gmail.com</span>
-
-                  <span class="title h6">20146@student.embuni.ac.ke</span>
-                </div>
-
-              </li>
-
-            </ul>
-
-          </div>
-
-        </div>
-      </section>
-
-    </article>
   </main>
 
 
 
 
 
-  <!-- 
-    - #FOOTER
-  -->
 
-  <footer class="footer">
-    <div class="container">
-
-      <p class="copyright">
-        Copyright & Design By @STEVEAPPS - 2024
-      </p>
-
-      <a href="#top" class="back-top-btn">
-        <span class="span">Back To Top</span>
-
-        <ion-icon name="arrow-up" aria-hidden="true"></ion-icon>
-      </a>
-
-    </div>
-  </footer>
-
-
-
-
-
-  <!-- 
-    - #CUSTOM CURSOR
-  -->
-
-  <div class="cursor-dot" data-cursor></div>
-  <div class="cursor-outline" data-cursor></div>
-
-
-
-
-
-  <!-- 
+  <!--
     - custom js link
   -->
   <script src="./assets/js/script.js"></script>
 
-  <!-- 
+  <!--
     - ionicon link
   -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
